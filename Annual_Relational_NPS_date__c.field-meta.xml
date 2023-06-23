@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annual_Relational_NPS_date__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(
+DAY(TODAY()) = 11,
+MONTH(TODAY()) = 5
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Annual Relational NPS date</label>
+    <type>Checkbox</type>
+</CustomField>
