@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Transactional NPS for service cases reminder</name>
+    <style>none</style>
+    <subject>Hello {!Case.Case_Contact_First_Name__c}! How did we do in resolving your service case {!Case.CaseNumber}? (Reminder)</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

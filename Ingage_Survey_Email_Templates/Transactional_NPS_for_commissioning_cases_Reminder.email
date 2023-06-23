@@ -1,0 +1,65 @@
+<html >
+
+<head>
+
+
+</head>
+
+<body lang=EN-GB style='tab-interval:0.0pt'>
+
+    <meta content="text/html; charset=windows-1252" http-equiv="Content-Type" />
+   
+    <div class="WordSection1">
+        <div>
+            <table background="https://netzsch--gdsand.sandbox.file.force.com/servlet/servlet.ImageServer?id=0155r000000zwU5&oid=00D5r0000005MKJ&lastMod=1679916576000" width=600" height="400" style = "padding:2px;
+    z-index: -1000;
+    background-size: cover;
+    background-position: center; border="0" cellpadding="0" cellspacing="0"  style="margin: 0px; border-collapse:collapse; mso-yfti-tbllook:1184; height: 291px; width: 457px; color: #FFFFFF;">
+                
+<tr >
+                    <td class="auto-style1">
+                        <p align="left"  contenteditable="false">
+                            <img id="_x0000_i1026" border="0" src="https://netzsch--gdsand.sandbox.file.force.com/servlet/servlet.ImageServer?id=0155r000000zwTv&oid=00D5r0000005MKJ&lastMod=1679915471000" height="50" width="187" />
+                        </p>
+                        <table style="width: 100%;">
+                            <tr>
+                                <div contenteditable="false">
+                                    <td class="auto-style2" contenteditable="true" aria-multiline="True" draggable="false" spellcheck="true" 
+                                        style="font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;; color: #696A6D; clip: rect(auto, auto, auto, auto); 
+                                        text-align: left; vertical-align: top; font-size: 14px;" translate="yes">
+                                        <br />
+                                        Dear {!Case.Case_Contact_First_Name__c},<br /><br />To help us to improve our Customer Support, we ask your opinion and your impressions about our services. Without a doubt, it will be an opportunity to better understand how our aftersales service can help you and other people.
+<br /><br />
+We ask you to answer a short survey about the commisioning {!Case.CaseNumber}, which should only take a few seconds to complete. You may answer as many or as few questions as you like. We hope this is the beginning of a long journey together and know that you can always count on us! 
+<br /><br />
+The link to the survey is here!                                   
+                    </td>
+                </tr>
+            </table>
+<br>
+<br>
+<span>
+<a href="https://netzsch--gdsand.sandbox.my.salesforce-sites.com/?id=a375r000000NThOAAW&eid={!Case.in_gage__Employee_ID__c}&caid={!Case.Id}&cid={!Case.ContactId}&aid={!Account.Id}" style="background: rgb(75, 160, 234) none repeat scroll 0% 0%;color: rgb(255, 255, 255);padding: 6px 44px;text-decoration: none;font-size: 18px;">Leave feedback now</a></span>
+<br>
+<br>
+ <span style="font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+                                &quot;Times New Roman&quot;;color:#666666; font-size: 14px;">Thanks for your time,<br />
+                        <p class="MsoNormal">
+                                        &nbsp;</p>
+                        </span>
+                        </span>
+                        <span style="font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+                            &quot;Times New Roman&quot;;color:#666666; font-size: 14px;">Ernesto Francisco Garcia<br />
+Global Customer Chief Officer<br />
+Aftersales G&D<br />
+                        </span>
+            <div>
+                <p class="MsoNormal">
+                    <span style="font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:white">{!Case.Thread_Id}<o:p></o:p></span></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
