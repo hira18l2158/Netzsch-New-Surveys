@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transactional_survey_service_case_sent__c</fullName>
+    <externalId>false</externalId>
+    <formula>!ISNULL(Contact.in_gage__Last_Survey_Sent_Date__c) &amp;&amp; !ISNULL(in_gage__Survey_Reminder_Date__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Transactional survey service case sent</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

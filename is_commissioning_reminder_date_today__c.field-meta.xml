@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>is_commissioning_reminder_date_today__c</fullName>
+    <externalId>false</externalId>
+    <formula>OR(IF(today() = Survey_Sent_date_for_commissioning_cases__c + 28, true, false)
+,IF(today() = Survey_Sent_date_for_commissioning_cases__c + 14, true, false)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>is commissioning reminder date today</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
